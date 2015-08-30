@@ -1,0 +1,35 @@
+<DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Viva la danza</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+</head>
+    
+    <body>
+        <h1>Окно работы с клиентом</h1>
+        <div>
+            <form method="post" action="index.php?action=add">
+                <label>ИМЯ [ОТЧЕСТВО]<br>
+                    <input type="text" name="name" value="" class="form-item" autofocus required>
+                </label></p>
+                <label>ФАМИЛИЯ<br>
+                    <input type="text" name="surname" value="" class="form-item" required>
+                </label></p>
+                <label>ДАТА РОЖДЕНИЯ<br>
+                    <input type="date" name="birthday" value="" class="form-item" required>
+                </label></p>
+                <label>ТЕЛЕФОН<br>
+                    <input type="text" name="phone" value="" class="form-item" required>
+                </label></p>
+                <label>E-MAIL<br>
+                    <input type="email" name="email" value="" class="form-item">
+                </label></p>
+                <label>АДРЕС<br>
+                    <textarea  name="address" class="form-item"></textarea>
+                </label></p>
+                <input type="submit" value="Сохранить" class="btn">
+            </form>
+        
+        </div>
+    </body>
+</DOCTYPE>
